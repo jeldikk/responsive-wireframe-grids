@@ -1,0 +1,56 @@
+@media screen and (max-width: 576px){
+    /* for something on potrait mobile screens */
+
+    #toggle-btn{
+        display: inline;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    
+
+    #toggle-btn:active{
+        background-color: var(--sidebar-color);
+    }
+
+    .item-a{
+        background-color: var(--header-color);
+    }
+
+    .item-b{
+        background-color: var(--main-color);
+        /* transition: width 0.7s; */
+    }
+
+    /* .item-c{
+        background-color: var(--sidebar-color);
+    } */
+    .item-c{
+        width: 0px;
+        height: 100vh;
+        background-color: var(--sidebar-color);
+        position: absolute;
+        transition: width 0.7s;
+    }
+    .item-c.show-side-bar{
+        /* transition: width 0.7s; */
+        width: 60vw;
+    }
+
+    .item-d{
+        background-color: var(--footer-color);
+    }
+
+    .container{
+        
+        /* column-gap: 10px; */
+        row-gap: 5px;
+        grid-template-areas: 
+            "header header header header"
+            "main main main main"
+            "footer footer footer footer";
+    }
+}
