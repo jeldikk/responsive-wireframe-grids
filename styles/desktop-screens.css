@@ -1,0 +1,26 @@
+@media screen and (min-width: 1201px) and (max-width: 1400px){
+    /* something for desktops */
+    .item-a{
+        background-color: var(--header-color);
+    }
+
+    .item-b{
+        background-color: var(--main-color);
+    }
+
+    .item-c{
+        background-color: var(--sidebar-color);
+    }
+
+    .item-d{
+        background-color: var(--footer-color);
+    }
+
+    .container{
+        column-gap: 5px;
+        grid-template-areas: 
+            "header header header sidebar"
+            "main main main sidebar"
+            "footer footer footer sidebar";
+    }
+}
