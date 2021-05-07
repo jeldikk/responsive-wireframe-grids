@@ -1,0 +1,10 @@
+# Environment
+node_modules/
+
+# deployed filed
+deploy/
+
+#firebase stuff
+.firebase
+.firebaserc
+firebase.json
