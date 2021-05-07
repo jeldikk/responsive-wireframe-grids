@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+}
+
+/* Lets define some global variables */
+:root{
+    --header-color: green;
+    --main-color: indianred;
+    --footer-color: lightblue;
+    --sidebar-color: orange;
+}
+
+
+/* CSS for grid items  */
+.item{
+    height: 100%;
+    width: 100%;
+}
+
+.item-a{
+    grid-area: header;
+    background-color: var(--header-color);
+}
+
+.item-b{
+    grid-area: main;
+    background-color: var(--main-color);
+}
+
+.item-c{
+    grid-area: sidebar;
+    background-color: var(--sidebar-color);
+}
+
+.item-d{
+    grid-area: footer;
+    background-color: var(--footer-color);
+}
+
+/* CSS for container  */
+.container{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 10% 70% 20%;
+    row-gap: 5px;
+    grid-template-areas:
+        "header header header header"
+        "main main . sidebar"
+        "footer footer footer footer";
+
+}
+
+#toggle-btn{
+    display: none;
+}
+
+
+
+/* all media queries are refactored to their respective .css file */
+
