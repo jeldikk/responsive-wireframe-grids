@@ -1,0 +1,18 @@
+@media screen and (min-width: 1401px){
+    /* something for TV screens */
+    .item-a{
+        background-color: var(--header-color);
+    }
+
+    .item-b{
+        background-color: var(--main-color);
+    }
+
+    .item-c{
+        background-color: var(--sidebar-color);
+    }
+
+    .item-d{
+        background-color: var(--footer-color);
+    }
+}
