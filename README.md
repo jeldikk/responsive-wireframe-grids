@@ -5,3 +5,6 @@ A sample project demonstrating wireframe prototypeing using CSS grid included wi
 Just a sample project made from scratch to test if we can use css grids to demonstrate a website wireframe prototypes. No thought or effort was put up for SEO or stuff. 
 
 Here is the deployment [link](https://wireframes-demo-grid.web.app)
+
+#### Please Note:
+After opening the deployment link do not forget to test the responsive behaviour by changing the viewport of your browser( changing the screen sizes of resizing)
