@@ -1,0 +1,25 @@
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    /* something for laptops */
+    .item-a{
+        background-color: var(--header-color);
+    }
+
+    .item-b{
+        background-color: var(--main-color);
+    }
+
+    .item-c{
+        background-color: var(--sidebar-color);
+    }
+
+    .item-d{
+        background-color: var(--footer-color);
+    }
+
+    .container{
+        grid-template-areas: 
+            "header header header header"
+            "main main main sidebar"
+            "footer footer footer footer";
+    }
+}
